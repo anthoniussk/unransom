@@ -1,0 +1,22 @@
+[Project]
+Version=3
+Description=UnRamson
+Api=fb (FreeBASIC)
+[Make]
+Current=1
+1=Windows Console,fbc -s console
+Recompile=2
+Module=Module Build,fbc -c
+[TabOrder]
+TabOrder=1,2,3
+[File]
+1=unramson.bas
+2=registry.bi
+3=unramson.rc
+[BreakPoint]
+2=
+1=
+[FileInfo]
+1=0,10,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

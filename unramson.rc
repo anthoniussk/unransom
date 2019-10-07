@@ -1,0 +1,33 @@
+#define RT_MANIFEST 24
+#define MANIFEST 24
+#define VI 1
+#define CREATEPROCESS_MANIFEST_RESOURCE_ID 1
+
+VI VERSIONINFO
+FILEVERSION 1,0,0,3
+PRODUCTVERSION 1,0,0,3
+FILEOS 0x00000000
+FILETYPE 0x00000001
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "04090000"
+    BEGIN
+      VALUE "CompanyName", "SOFTPAE\0"
+      VALUE "FileDescription", "Disables execution of JS/VBS scripts by double click.\0"
+      VALUE "FileVersion", "1.0.0.3\0"
+      VALUE "InternalName", "unramson.exe\0"
+      VALUE "OriginalFilename", "unramson.exe\0"
+      VALUE "ProductName", "UnRamson 1.0.0.3\0"
+      VALUE "ProductVersion", "1.0.0.3\0"
+      VALUE "LegalCopyright", "Copyright © 2017 Anton Pitak, SOFTPAE.com\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 0x0000
+  END
+END
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID MANIFEST "UAC.xml"
+
